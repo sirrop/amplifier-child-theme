@@ -1,0 +1,8 @@
+@import "~bootstrap/scss/variables";
+
+.editor .editor-body {
+  &:empty::after {
+    content: attr(placeholder);
+    color: $gray-600;
+  }
+}

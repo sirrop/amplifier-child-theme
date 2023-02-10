@@ -1,0 +1,22 @@
+@import "bootstrap";
+
+.sidebar {
+  @include media-breakpoint-up(md) {
+    &.auto-expanded {
+      width: 280px;
+    }
+  }
+
+  @include media-breakpoint-down(md) {
+    &.auto-expanded {
+      width: 5.5em;
+    }
+  }
+
+  &.auto-expanded.expanded {
+    width: 280px;
+  }
+  &.auto-expanded.closed {
+    width: 5.5em;
+  }
+}

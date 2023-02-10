@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/scss" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tsMain" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tmp-user" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tsTest" isTestSource="true" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

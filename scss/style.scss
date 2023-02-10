@@ -1,0 +1,48 @@
+@import "bs-custom";
+@import "~bootstrap";
+@import "scss/editor/editor";
+@import "signup";
+@import "components/index";
+@import "animate.css";
+
+.btn-add-photo {
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(3px);
+  border-radius: 50%;
+  border: 1px solid gainsboro;
+  display: inline-block;
+  font-size: 1.5rem;
+  width: 2em;
+  line-height: 2em;
+  text-align: center;
+  transition: background-color 300ms ease;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+.btn-remove-photo {
+  background-color: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(3px);
+  border-radius: 50%;
+  border: 1px solid gainsboro;
+  display: inline-block;
+  font-size: .8rem;
+  width: 2em;
+  line-height: 2em;
+  text-align: center;
+  transition: background-color 300ms ease;
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+}
+
+.post-card {
+  & p {
+    margin-bottom: 0;
+  }
+}
